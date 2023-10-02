@@ -1,0 +1,400 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-size: 20px;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: url("https://images-ext-1.discordapp.net/external/J-3qIXDYBNj4EQ4UTlKiDLeuf6cyb9BDzDU-l3yCTv4/%3Ffmt%3Dwebp%26wid%3D1024%26hei%3D1024/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A1to1?width=671&height=671");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+}
+@media screen and (min-width: 768px) {
+  header {
+    background-size: cover;
+    background-image: url("https://bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1:1to1?fmt=webp&wid=1024&hei=1024");
+  }
+}
+@media screen and (min-width: 992px) {
+  header {
+    background-size: cover;
+    background-image: url("https://images-ext-2.discordapp.net/external/9SCKv8HKq3S9kNPUc10DcCTDx94dEwQxSaEspg7jeZs/%3Ffmt%3Dwebp%26wid%3D1504%26hei%3D841/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A16to9?width=998&height=558");
+  }
+}
+header .header__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+@media screen and (min-width: 768px) {
+  header .header__nav {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+@media screen and (min-width: 992px) {
+  header .header__nav {
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+}
+
+.imgIcon {
+  width: 20px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.imgLogo {
+  padding-left: 20px;
+  width: 60px;
+}
+
+.ulFlex {
+  display: flex;
+  align-items: center;
+}
+
+header::after {
+  content: "";
+  display: block;
+  width: 90%;
+  height: 1px;
+  background-color: white;
+  margin-top: 10px;
+  margin-left: 20px;
+  opacity: 0.3;
+}
+
+.ulFlexColumn {
+  display: flex;
+  flex-direction: column;
+}
+.ulFlexColumn a {
+  display: flex;
+  justify-content: space-between;
+}
+
+.imgIconFlecha {
+  width: 10px;
+  height: 9px;
+}
+
+.imgIconCanvas {
+  width: 20px;
+  margin-right: 20px;
+}
+
+.imgLogoMenu {
+  width: 50px;
+  margin-right: 120px;
+}
+
+.divTextoG {
+  color: white;
+  position: absolute;
+  background-color: black;
+  box-shadow: 0 0 40px 50px black;
+  margin-top: 300px;
+  height: 350px;
+  text-align: center;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+}
+.divTextoG h1 {
+  font-size: 3rem;
+  margin-bottom: 0rem;
+  font-weight: lighter;
+}
+.divTextoG h2 {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+.divTextoG h3 {
+  font-size: 0.5rem;
+  margin-bottom: 0rem;
+}
+.divTextoG h4 {
+  font-size: rem;
+}
+@media screen and (min-width: 768px) {
+  .divTextoG {
+    width: 30%;
+    margin-top: 500px;
+    background: none;
+    box-shadow: none;
+    margin-left: 100px;
+  }
+  .divTextoG h1 {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .divTextoG {
+    background-size: cover;
+    width: 50%;
+    height: 180vh;
+  }
+}
+
+.boxWhite {
+  color: black;
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  margin-top: 620px;
+  height: 200px;
+  text-align: center;
+  width: 100%;
+}
+.boxWhite p {
+  padding: 20px;
+  font-size: 12px;
+  text-align: justify;
+}
+.boxWhite span {
+  font-size: 12px;
+  font-weight: bold;
+}
+@media screen and (min-width: 768px) {
+  .boxWhite {
+    margin-top: 1024px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .offcanvas-end {
+    display: none;
+  }
+}
+
+footer {
+  width: 100%;
+  height: 50vh;
+  background-color: white;
+}
+
+.footer1 {
+  padding-top: 30px;
+  padding-left: 50px;
+}
+.footer1 h4 {
+  font-size: 0.7rem;
+}
+.footer1 .h4Footer1 {
+  font-weight: lighter;
+}
+
+.bgGrey {
+  background-color: #F6F6F6;
+  padding: 50px;
+  padding-bottom: 20px;
+}
+.bgGrey h4 {
+  font-size: 0.7rem;
+  font-weight: bold;
+}
+
+.imgRedes {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.imgRedes img {
+  width: 20px;
+}
+
+.divFooter {
+  text-align: center;
+  font-size: 0.7rem;
+  margin-top: 20px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 0.2rem;
+  padding: 20px;
+}
+.footer p {
+  font-size: 0.5rem;
+  font-weight: bold;
+}
+
+main {
+  width: 100%;
+  height: 445vh;
+  background-color: rgb(251, 251, 251);
+}
+
+.herramientas {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+.herramientas img {
+  width: 400px;
+}
+.herramientas h3 {
+  font-size: 0.8rem;
+}
+.herramientas h2 {
+  font-weight: lighter;
+}
+.herramientas button {
+  border: 1px solid black;
+  background-color: white;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  width: 350px;
+  height: 50px;
+}
+
+.main__ix2 {
+  margin-bottom: 590px;
+}
+.main__ix2 .img__ix2 {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.text__ix2 {
+  color: white;
+  position: absolute;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 500px;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+}
+.text__ix2 h1 {
+  font-size: 5rem;
+  margin-bottom: 0.7rem;
+  font-weight: lighter;
+}
+.text__ix2 h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0rem;
+  margin: 2rem;
+}
+.text__ix2 h4 {
+  font-size: 0.7rem;
+}
+
+video {
+  width: 414px; /* Establece el ancho deseado */
+  height: 200px; /* Establece la altura deseada */
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+video div {
+  position: relative;
+  margin-top: 100px;
+  width: auto;
+  display: flex;
+  transform: translate(-50%, -50%);
+}
+
+.video__text {
+  top: 37%;
+  position: absolute;
+  color: white;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  margin-top: 2620px;
+  margin-left: 210px;
+  z-index: 1;
+}
+.video__text button {
+  background-color: transparent;
+  border-radius: 5px;
+  border: 2px solid white;
+  height: 45px;
+  width: 300px;
+  color: white;
+  font-weight: bold;
+}
+
+.main__i5 {
+  margin-top: 35px;
+}
+.main__i5 .img__i5 {
+  display: flex;
+  width: 100%;
+  height: auto;
+}
+
+.text__i5 {
+  color: white;
+  position: absolute;
+  background-color: black;
+  padding-top: 50px;
+  padding-bottom: 450px;
+  height: 100px;
+  width: 100%;
+  text-align: center;
+  font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+}
+.text__i5 h1 {
+  font-size: 5.5rem;
+  font-weight: lighter;
+}
+.text__i5 h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0rem;
+  margin: 1.5rem;
+}
+.text__i5 h4 {
+  font-size: 0.7rem;
+}
+
+.main__accesorios {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+.main__accesorios .accesorios__img {
+  padding-bottom: 30px;
+  margin-top: 550px;
+  width: 100%;
+}
+.main__accesorios h4 {
+  color: grey;
+  font-size: 0.8rem;
+}
+.main__accesorios h2 {
+  font-weight: lighter;
+}
+.main__accesorios button {
+  width: 100%;
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 3px;
+  height: 50px;
+  margin-top: 10px;
+}
+.main__accesorios p {
+  margin-top: 10px;
+  font-size: 0.6rem;
+}
+
+.main__accesorios::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(79, 79, 79);
+  margin-top: 20px;
+  opacity: 0.2;
+}/*# sourceMappingURL=styles.css.map */

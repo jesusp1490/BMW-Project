@@ -1,0 +1,363 @@
+header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images-ext-1.discordapp.net/external/J-3qIXDYBNj4EQ4UTlKiDLeuf6cyb9BDzDU-l3yCTv4/%3Ffmt%3Dwebp%26wid%3D1024%26hei%3D1024/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A1to1?width=671&height=671");
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+
+    @include tablet {
+        background-size: cover;
+        background-image: url("https://bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1:1to1?fmt=webp&wid=1024&hei=1024");
+    }
+
+    @include desktop {
+        background-size: cover;
+        background-image: url("https://images-ext-2.discordapp.net/external/9SCKv8HKq3S9kNPUc10DcCTDx94dEwQxSaEspg7jeZs/%3Ffmt%3Dwebp%26wid%3D1504%26hei%3D841/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A16to9?width=998&height=558");
+    }
+
+    .header__nav {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        padding: 10px;
+
+        @include tablet {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+
+        @include desktop {
+            background-color: rgba(0, 0, 0, 0.7);
+        }
+    }
+}
+
+.imgIcon {
+        width: 20px;
+        margin-right: 20px;
+        margin-top: 20px;
+    
+    }
+    
+    .imgLogo {
+        padding-left: 20px;
+        width: 60px;
+    }
+    
+    .ulFlex {
+        display: flex;
+        align-items: center;
+    
+    }
+    
+    header::after {
+        content: "";
+        display: block;
+        width: 90%;
+        height: 1px;
+        background-color: white;
+        margin-top: 10px;
+        margin-left: 20px;
+        opacity: 0.3;
+    
+    }
+    
+    .ulFlexColumn {
+        display: flex;
+        flex-direction: column;
+    
+        a {
+            display: flex;
+            justify-content: space-between;
+            
+        }
+    
+    }
+    .imgIconFlecha {
+        width: 10px;
+        height: 9px;
+    }
+    
+    .imgIconCanvas {
+        width: 20px;
+        margin-right: 20px;
+    }
+    
+    .imgLogoMenu {
+        width: 50px;
+        margin-right: 120px;
+    }
+    
+    .divTextoG {
+        color: white;
+        position: absolute;
+        background-color: black;
+        box-shadow: 0 0 40px 50px black;
+        margin-top: 300px;
+        height: 350px;
+        text-align: center;
+        font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+    
+        h1 {
+            font-size: 3rem;
+            margin-bottom: 0rem;
+            font-weight: lighter;
+        }
+    
+        h2 {
+            font-size: 1rem;
+            margin-bottom: 0.5rem;
+        }
+    
+        h3 {
+            font-size: 0.5rem;
+            margin-bottom: 0rem;
+        }
+    
+        h4 {
+            font-size: rem;
+    
+        }
+    
+    
+        @include tablet {
+            width: 30%;
+            margin-top: 500px;
+            background: none;
+            box-shadow: none;
+            margin-left: 100px;
+    
+            h1 {
+                font-size: 2rem;
+            }
+        }
+    
+        @include desktop {
+            background-size: cover;
+            width: 50%;
+            height: 180vh;
+    
+        }
+    
+    }
+    
+    .boxWhite {
+        color: black;
+        position: absolute;
+        background-color: rgb(255, 255, 255);
+        margin-top: 620px;
+        height: 200px;
+        text-align: center;
+        width: 100%;
+    
+        p {
+            padding: 20px;
+            font-size: 12px;
+            text-align: justify;
+        }
+    
+        span {
+            font-size: 12px;
+            font-weight: bold;
+        }
+    
+        @include tablet {
+            margin-top: 1024px;
+    
+        }
+    
+    
+    }
+    
+    .offcanvas-end {
+        @include tablet {
+            display: none; // Desaparece en tabletas y escritorio
+        }
+    }
+
+
+
+
+
+
+
+
+// header {
+//     width: 100%;
+//     height: 100vh;
+//     background-image: url("https://images-ext-1.discordapp.net/external/J-3qIXDYBNj4EQ4UTlKiDLeuf6cyb9BDzDU-l3yCTv4/%3Ffmt%3Dwebp%26wid%3D1024%26hei%3D1024/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A1to1?width=671&height=671");
+//     background-repeat: no-repeat;
+//     background-size: contain;
+//     position: relative;
+
+
+//     @include tablet {
+//         background-size: cover;
+//         background-image: url("https://bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1:1to1?fmt=webp&wid=1024&hei=1024");
+
+//     }
+
+//     @include desktop {
+//         background-size: cover;
+//         background-image: url("https://images-ext-2.discordapp.net/external/9SCKv8HKq3S9kNPUc10DcCTDx94dEwQxSaEspg7jeZs/%3Ffmt%3Dwebp%26wid%3D1504%26hei%3D841/https/bmw.scene7.com/is/image/BMW/the-first-ever-bmw-iX1%3A16to9?width=998&height=558");
+//     }
+
+
+
+//     .header__nav {
+//         display: flex;
+//         flex-direction: row;
+//         align-items: center;
+//         justify-content: space-between;
+//         padding: 10px;
+
+//     }
+
+//     .ul__li--a {
+//         text-decoration: none;
+//         color: white;
+//         font-size: 10px;
+//         padding-right: 5px;
+//         font-weight: bold;
+
+//     }
+// }
+
+// .imgIcon {
+//     width: 20px;
+//     margin-right: 20px;
+//     margin-top: 20px;
+
+// }
+
+// .imgLogo {
+//     padding-left: 20px;
+//     width: 60px;
+// }
+
+// .ulFlex {
+//     display: flex;
+//     align-items: center;
+
+// }
+
+// header::after {
+//     content: "";
+//     display: block;
+//     width: 90%;
+//     height: 1px;
+//     background-color: white;
+//     margin-top: 10px;
+//     margin-left: 20px;
+//     opacity: 0.3;
+
+// }
+
+// .ulFlexColumn {
+//     display: flex;
+//     flex-direction: column;
+
+//     a {
+//         display: flex;
+//         justify-content: space-between;
+        
+//     }
+
+// }
+// .imgIconFlecha {
+//     width: 10px;
+//     height: 9px;
+// }
+
+// .imgIconCanvas {
+//     width: 20px;
+//     margin-right: 20px;
+// }
+
+// .imgLogoMenu {
+//     width: 50px;
+//     margin-right: 120px;
+// }
+
+// .divTextoG {
+//     color: white;
+//     position: absolute;
+//     background-color: black;
+//     box-shadow: 0 0 40px 50px black;
+//     margin-top: 300px;
+//     height: 350px;
+//     text-align: center;
+//     font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+
+//     h1 {
+//         font-size: 3rem;
+//         margin-bottom: 0rem;
+//         font-weight: lighter;
+//     }
+
+//     h2 {
+//         font-size: 1rem;
+//         margin-bottom: 0.5rem;
+//     }
+
+//     h3 {
+//         font-size: 0.5rem;
+//         margin-bottom: 0rem;
+//     }
+
+//     h4 {
+//         font-size: rem;
+
+//     }
+
+
+//     @include tablet {
+//         width: 30%;
+//         margin-top: 500px;
+//         background: none;
+//         box-shadow: none;
+//         margin-left: 100px;
+
+//         h1 {
+//             font-size: 2rem;
+//         }
+//     }
+
+//     @include desktop {
+//         background-size: cover;
+//         width: 50%;
+//         height: 180vh;
+
+//     }
+
+// }
+
+// .boxWhite {
+//     color: black;
+//     position: absolute;
+//     background-color: rgb(255, 255, 255);
+//     margin-top: 620px;
+//     height: 200px;
+//     text-align: center;
+//     width: 100%;
+
+//     p {
+//         padding: 20px;
+//         font-size: 12px;
+//         text-align: justify;
+//     }
+
+//     span {
+//         font-size: 12px;
+//         font-weight: bold;
+//     }
+
+//     @include tablet {
+//         margin-top: 1024px;
+
+//     }
+
+
+// }
+

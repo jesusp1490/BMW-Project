@@ -1,0 +1,205 @@
+main {
+    width: 100%;
+    height: 445vh;
+    background-color: rgb(251, 251, 251);
+}
+
+.herramientas {
+    margin-top: 30px;
+    margin-bottom: 50px; ///
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 50px; ///
+
+    img {
+        width: 400px;
+    }
+
+    h3 {
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        font-weight: lighter;
+    }
+
+    button {
+        border: 1px solid black;
+        background-color: white;
+        border-radius: 3px; ////
+        font-size: 0.8rem; ////
+        font-weight: bold; ////
+        width: 350px;
+        height: 50px;
+    }
+}
+
+.main__ix2 {
+    margin-bottom: 590px;
+    ///////////////
+    .img__ix2 {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.text__ix2 {
+    /////////////////
+    color: white;
+    position: absolute;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 500px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+
+    h1 {
+        font-size: 5rem;
+        margin-bottom: 0.7rem;
+        font-weight: lighter;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0rem;
+        margin: 2rem;
+    }
+
+    h4 {
+        font-size: 0.7rem;
+    }
+
+
+}
+
+video {
+    width: 414px; /* Establece el ancho deseado */
+    height: 200px; /* Establece la altura deseada */
+    object-fit: cover;
+
+    div {
+        position: relative;
+        margin-top: 100px;
+        width: auto;
+        display: flex;
+        transform: translate(-50%, -50%);
+
+    }
+}
+
+.video__text {
+
+    top: 37%;
+    position: absolute;
+    color: white;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    margin-top: 2620px;
+    margin-left: 210px;
+    z-index: 1;
+
+    button {
+        background-color: transparent;
+        border-radius: 5px;
+        border: 2px solid white;
+        height: 45px;
+        width: 300px;
+        color: white;
+        font-weight: bold;
+    }
+}
+
+.main__i5 {
+    margin-top: 35px;
+    ///////////////
+    .img__i5 {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+}
+
+.text__i5 {
+    /////////////////
+    color: white;
+    position: absolute;
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 450px;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+    font-family: bmwTypeNextWeb, Arial, Helvetica, Roboto, sans-serif;
+
+    h1 {
+        font-size: 5.5rem;
+        font-weight: lighter;
+    }
+
+    h3 {
+        font-size: 1.2rem;
+        margin-bottom: 0rem;
+        margin: 1.5rem;
+    }
+
+    h4 {
+        font-size: 0.7rem;
+    }
+
+
+}
+
+.main__accesorios {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+
+    .accesorios__img {
+        padding-bottom: 30px;
+        margin-top: 550px;
+        width: 100%;
+    }
+
+    h4 {
+        color: grey;
+        font-size: 0.8rem;
+    }
+
+    h2 {
+        font-weight: lighter;
+
+    }
+
+    button {
+        width: 100%;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        height: 50px;
+        margin-top: 10px;
+
+    }
+
+    p {
+        margin-top: 10px;
+        font-size: 0.6rem;
+
+    }
+
+}
+
+.main__accesorios::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: rgb(79, 79, 79);
+    margin-top: 20px;
+    opacity: 0.2;
+}
